@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Project 1 Part 2</title>
     <link href="css/main.css" rel="stylesheet">
-    <!-- include your icon as your favicon -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+    <link rel="icon" href="img/gradcap.png" type="image/png" sizes="16x16">
   </head>
   <body>
     <header class="header">
-      <!-- include your logo -->
-      <nav>
-        <ul>
-          <li>
+      <img src="img/logo.png" alt="Logo" title="Logo">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
             <a href="index.html">Home</a>
           </li>
-          <li>
+          <li class="nav__list-item">
             <a href="elements.html">Elements</a>
           </li>
-          <li>
+          <li class="nav__list-item">
             <a href="components.html">Components</a>
           </li>
         </ul>
@@ -26,10 +28,13 @@
       <section class="main__section">
         <h2>Components</h2>
 
-        <!-- This is where your alerts go -->
+
         <section class="main__section">
           <h3>Alerts</h3>
           <div class="item-container">
+            <p>Oh no, you did something wrong!</p>
+            <p>Good Job!</p>
+            <p>This is a notification message.</p>
             <!-- Make sure you include error, success and notification -->
           </div>
         </section>
@@ -38,6 +43,12 @@
         <section class="main__section">
           <h3>Buttons</h3>
           <div class="item-container">
+            <p>
+              Submit
+            </p>
+            <p>
+              Reset
+            </p>
             <!-- Make sure your button Primary, secondary and each have a hover state -->
           </div>
         </section>
@@ -46,7 +57,31 @@
         <section class="main__section">
           <h3>Chips</h3>
           <div class="item-container">
-            <!-- Make sure you include a chip with a just a title and a chip with a title and description -->
+            <div class="chip">
+              <div class="chip__avatar">
+                <img src="img/avatar.jpg" class="chip__avatar-img" title="Avatar" alt="avatar" />
+              </div>
+              <div class="chip__text-container">
+                <div class="chip__text-title">
+                  Jennifer Lingafelter
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="chip">
+              <div class="chip__avatar">
+                JL
+              </div>
+              <div class="chip__text-container">
+                <div class="chip__text-title">
+                  Jennifer Lingafelter
+                </div>
+                <div class="chip__text-description">
+                  jlingaf@ufl.edu
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -61,7 +96,9 @@
       </section>
     </main>
     <footer class="footer">
-      <!-- This is your footer -->
+      <p>
+        Designed by Jennifer 2018
+      </p>
     </footer>
   </body>
 </html>
