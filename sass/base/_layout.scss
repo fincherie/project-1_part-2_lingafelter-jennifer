@@ -1,9 +1,15 @@
 // Base Layout Stylesheet
 // This is where your layout of the project will go
 // ========================================
+
+body {
+  text-align: center;
+}
+
 .header {
   display: inline;
 }
+
 .header__logo {
   width: 50%;
   float: left;
@@ -17,7 +23,7 @@
     display: inline;
     list-style-type: none;
     width: 100px;
-    color: $darkgray;
+    color: $white;
     text-decoration: none;
   }
 
@@ -29,6 +35,9 @@
     margin-top: 5%;
     text-decoration: none;
     text-align: center;
+    background-color: $red;
+    color: $white;
+    padding: 2% 0 2% 0;
   }
 
   &__list--item:hover {
@@ -41,7 +50,7 @@
 .main {
   padding: $spacer-m;
   margin-top: 10%;
-  @include media($large);
+  font-family: $primary-font;
 
   &__section {
     margin: $spacer-lg $reset-0;
