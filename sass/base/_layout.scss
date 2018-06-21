@@ -1,9 +1,42 @@
 // Base Layout Stylesheet
 // This is where your layout of the project will go
 // ========================================
-
 .header {
+  display: inline;
 
+}
+.header__logo {
+  width: 50%;
+  float: left;
+  max-width: 500px;
+}
+
+.nav {
+  display: inline-flex;
+
+  &__list a {
+    display: inline;
+    list-style-type: none;
+    width: 100px;
+    color: $darkgray;
+    text-decoration: none;
+  }
+
+  &__list--item {
+    margin-left: 20px;
+    display: inline-flex;
+    color: $white;
+    border-radius: 10%;
+    margin-top: 5%;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  &__list--item:hover {
+    background-color: $gray;
+    color: $red;
+    padding: 1% 0 1% 0;
+  }
 }
 
 .main {
@@ -23,5 +56,10 @@
 }
 
 .footer {
-
+  width: 100%;
+  background-color: $darkgray;
+  padding: 2%;
+  color: $white;
+  text-align: center;
+  margin-top: 10%;
 }
