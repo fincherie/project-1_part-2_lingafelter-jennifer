@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="header">
-      <img src="img/logo.png" alt="Logo" title="Logo">
+      <img src="img/logo.png" class="header__logo" alt="Logo" title="Logo">
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__list--item">
@@ -23,6 +23,7 @@
           </li>
         </ul>
       </nav>
+      <h1>Party Planning Made Easy</h1>
     </header>
     <main class="main">
       <section class="main__section">
@@ -100,11 +101,25 @@
         <!-- This is where your form elements go -->
         <section class="main__section">
           <h3>Form Elements</h3>
-          <div class="item-container">
+            <div class="form">
+                <div class="item-container">
+                  <label for="name" class="form__label">Name</label>
+                  <input name="Name" class="form__input" type="text">
+                </div>
+                <div class="item-container">
+                  <label for="phone" class="form__label">Enter your phone number</label>
+                  <input name="phone" class="form__input" type="text">
+                </div>
+                <div class="item-container">
+                  <label for="contact" class="form__label">How do you prefer we contact you?</label></label>
+                    <select name="contact">
+                      <option value="phone">Phone Call</option>
+                      <option value="text">Text</option>
+                    </select>
             <!-- Make sure you include a basic text input - with or without a label, a basic text input with an error and a basic select box - with or without a label -->
-          </div>
+              </div>
+           </div>
         </section>
-
       </section>
     </main>
     <footer class="footer">

@@ -3,7 +3,6 @@
 // ========================================
 .header {
   display: inline;
-
 }
 .header__logo {
   width: 50%;
@@ -41,6 +40,8 @@
 
 .main {
   padding: $spacer-m;
+  margin-top: 10%;
+  @include media($large);
 
   &__section {
     margin: $spacer-lg $reset-0;
@@ -49,6 +50,78 @@
 
     }
   }
+}
+
+.colors {
+  text-align: center;
+
+  &__list {
+    text-align: center;
+    display: flex;
+    margin-left: 25px;
+  }
+
+  &__list--one {
+    background-color: $red;
+    height: 75px;
+    width: 75px;
+    color: $red;
+  }
+
+  &__list--two {
+    background-color: $black;
+    height: 75px;
+    width: 75px;
+    color: $black;
+  }
+
+  &__list--three {
+    background-color: $white;
+    height: 75px;
+    width: 75px;
+    color: $white;
+    border-color: $black;
+    border-width: 1px;
+    border-style: groove;
+    margin-left: 5px;
+  }
+
+  &__list--ones {
+    background-color: $red;
+    height: 75px;
+    width: 75px;
+    color: $red;
+    }
+
+  &__list--twos {
+    background-color: $green;
+    height: 75px;
+    width: 75px;
+    color: $green;
+  }
+
+
+  &__list--onea {
+    background-color: $gray;
+    height: 75px;
+    width: 75px;
+    color: $gray;
+  }
+
+  &__list--twoa {
+    background-color: $darkgray;
+    height: 75px;
+    width: 75px;
+    color: $darkgray;
+  }
+
+  &__list--threea {
+    background-color: $gold;
+    height: 75px;
+    width: 75px;
+    color: $gold;
+  }
+
 }
 
 .item-container {
