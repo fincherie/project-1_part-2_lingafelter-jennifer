@@ -1,10 +1,10 @@
 # Project 1 - Part 2
 
 ## Links
-[Jennifer's repo](https://github.com/fincherie/assignment-3_lingafelter-jennifer)
+[Jennifer's repo](https://github.com/fincherie/project-1_part-2_lingafelter-jennifer)
 
 
-[Jennifer's website](https://github.com/fincherie/assignment-3_lingafelter-jennifer)
+[Jennifer's website](http://www.jlingafelter.com/project-1_part-2_lingafelter-jennifer)
 
 ## Resources
 [W3 Schools](https://www.w3schools.com/)
