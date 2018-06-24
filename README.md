@@ -1,22 +1,16 @@
 # Project 1 - Part 2
 
-Remove all contents from here down when you submit your project.
+## Links
+[Jennifer's repo](https://github.com/fincherie/assignment-3_lingafelter-jennifer)
 
----
 
-1. Clone this repository
-2. Remove the existing .git folder (`rm -rf .git` in your terminal)
-3. Create a new Git repo in your project (`git init`)
-4. Update your .EditorConfig file with (at least) the following properties:
- * indent_style
- * insert_final_newline
- * trim_trailing_whitespace
-5. Add all existing files to the repo with a commit message of “initial commit”.
-6. Create a Repository on Github called `project-1_part-2_lastname-firstname`
-7. Push your existing repository from the command line
-8. Follow the directions for Project 1 - Part 2.
+[Jennifer's website](https://github.com/fincherie/assignment-3_lingafelter-jennifer)
 
----
+## Resources
+[W3 Schools](https://www.w3schools.com/)
+I rely on W3 Schools for correct syntax especially going between html and css.  When I Google how to write or style something, I always refer to W3 Schools first because it provides the answer right away whereas StackOverflow and CodePen don't always provide the answer in an obvious manner.
 
-To get Sass running:
-Use `sass --watch sass:css --style compressed` on your command line
+I also had to watch the class lecture multiple times because the content was in there but there was so much to learn that I apparently missed some key learnings as I watched it the previous times before.
+
+## Comments
+This assignment is where so many things we've learned al came together and actually made sense.  I have found it easier to write the step by step instructions on how to do something because it's so easy to miss one step (especially on setting up a repo and cloning one) that it can prevent you from creating the new clones repo.

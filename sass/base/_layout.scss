@@ -11,9 +11,13 @@ body {
 }
 
 .header__logo {
-  width: 50%;
+  width: 45%;
   float: left;
-  max-width: 500px;
+  max-width: 450px;
+
+  @include media($small){
+    width: 35%;
+  }
 }
 
 .nav {
@@ -28,7 +32,7 @@ body {
   }
 
   &__list--item {
-    margin-left: 20px;
+    margin-left: 10px;
     display: inline-flex;
     color: $white;
     border-radius: 10%;
@@ -38,6 +42,10 @@ body {
     background-color: $red;
     color: $white;
     padding: 2% 0 2% 0;
+
+    @include media ($small) {
+      display: block;
+    }
   }
 
   &__list--item:hover {
@@ -49,15 +57,17 @@ body {
 
 .main {
   padding: $spacer-m;
-  margin-top: 10%;
+  margin-top: 13%;
   font-family: $primary-font;
 
   &__section {
     margin: $spacer-lg $reset-0;
+  }
 
-    &--index {
+  &__section--img {
+    width: 25%;
+    display: inline-flex;
 
-    }
   }
 }
 
@@ -67,7 +77,8 @@ body {
   &__list {
     text-align: center;
     display: flex;
-    margin-left: 25px;
+    margin: auto;
+    display: inline-flex;
   }
 
   &__list--one {
@@ -100,7 +111,7 @@ body {
     height: 75px;
     width: 75px;
     color: $red;
-    }
+  }
 
   &__list--twos {
     background-color: $green;
@@ -130,7 +141,6 @@ body {
     width: 75px;
     color: $gold;
   }
-
 }
 
 .item-container {

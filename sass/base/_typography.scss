@@ -5,14 +5,20 @@
 h1 {
   text-align: center;
   font-family: $secondary-font;
-  font-size: 3rem;
+  font-size: 2rem;
   color: $gold;
+
+  @include media($small) {
+    font-size: 1.8rem;
+    margin-top: 50px;
+  }
 }
 
 h2 {
   text-align: center;
   font-family: $primary-font;
   font-size: 2rem;
+  display: block;
 }
 
 h3 {
